@@ -1,0 +1,154 @@
+/* @group clearfix  */
+
+.cf:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.cf {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .cf {height: 1%;}
+.cf {display: block;}
+/* End hide from IE-mac */
+
+/* @end */
+
+
+tr.priority-high td.Indicator {
+	background:#FF953F;
+}
+tr.priority-medium td.Indicator {
+	background:#53ADDF;
+}
+tr.priority-low td.Indicator {
+	background:#CFEEFF;
+}
+
+tr.Completed td {
+	background:#DFDFDF!important;
+	text-decoration: line-through;
+}
+tr.Deleted td {
+	color:#6F6F6F;
+	background:#8F8F8F!important;
+	text-decoration: line-through;
+}
+
+div.togglebox {
+	display: none;
+}
+
+
+
+
+.ui-dialog-content #Form_Form_Title, 
+.ui-dialog-content #Form_Form_ShortDescription {
+	width:99%;
+}
+
+.ui-dialog-content #Title .middleColumn, 
+.ui-dialog-content #ShortDescription .middleColumn {
+	width:auto;
+}
+
+
+
+
+.ui-dialog-content #Priority.optionset,
+.ui-dialog-content #Status.optionset {
+	width: 220px;
+	float: left;
+	padding-right:20px;	
+}
+
+.ui-dialog-content #Priority.optionset .middleColumn,
+.ui-dialog-content #Status.optionset .middleColumn {
+	width: 210px;
+}
+
+
+
+
+
+
+.ui-dialog-content #Type,
+.ui-dialog-content #DueDate {
+	width: 220px;
+	float: left;
+	padding-right:20px;	
+}
+
+.ui-dialog-content #Type .middleColumn,
+.ui-dialog-content #DueDate .middleColumn {
+	width: 210px;
+}
+
+.ui-dialog-content #Type select,
+.ui-dialog-content #DueDate input {
+	width: 205px;
+}
+
+
+
+
+
+
+/* hidden date fields */
+.date.hidden {
+	display: none;
+}
+
+/* @group ProjectPage_details_ss */
+
+	#ProjectPage_details_ss .typography h3 {
+		margin-top:30px;
+	}
+
+	#ProjectPage_details_ss table.Tasks tbody {
+	}
+
+	#ProjectPage_details_ss div.milestone {
+	}
+	#ProjectPage_details_ss div.milestone.completed {
+		display: none;
+	}
+
+	#ProjectPage_details_ss table.Tasks td,
+	#ProjectPage_details_ss table.Tasks th {
+		padding:8px;
+	}
+	
+	#ProjectPage_details_ss table.Tasks thead tr {
+		color:#7F7F7F;
+		background:#DFDFDF;
+	}
+	#ProjectPage_details_ss table.Tasks tr,
+	#ProjectPage_details_ss table.Tasks td {
+		border:1px solid #000;
+	}
+	#ProjectPage_details_ss table.Tasks td.Title {
+		width:300px;
+	}	
+	#ProjectPage_details_ss table.Tasks td.Description {
+		width:300px;
+	}	
+	#ProjectPage_details_ss table.Tasks td.WorkLog {
+		width: 150px;
+	}	
+
+	#ProjectPage_details_ss a.discrete{
+		color:#666666;
+	}
+	#ProjectPage_details_ss h3 a.discrete {
+		color:#000;
+	}
+
+
+/* @end */
+
+
+
+
+
